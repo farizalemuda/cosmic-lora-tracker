@@ -213,7 +213,7 @@ void GetGPSData()
                 mn = String(gps.time.minute());
             }
 
-            if (gps.time.second() < 10) }{
+            if (gps.time.second() < 10) {
                 sc = "0" + String(gps.time.second());
             } else {
                 sc = String(gps.time.second());
